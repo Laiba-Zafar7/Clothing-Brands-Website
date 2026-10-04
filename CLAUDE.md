@@ -1,4 +1,4 @@
-# CLAUDE.md — ORELLE
+# CLAUDE.md — KAIRO
 
 The design and engineering rulebook for this project. Read it before touching code. When a rule here conflicts with a personal design instinct, this file wins. When this file is silent, the reference website/video wins.
 
@@ -6,7 +6,7 @@ The design and engineering rulebook for this project. Read it before touching co
 
 ## 1. Project goal
 
-A premium, editorial fashion e-commerce site for the (fictional) house **ORELLE** — womenswear, menswear and accessories — that reproduces the *experience* of the reference site as closely as possible: its layout, rhythm, typography, stacked/sticky scrolling, split edit panels, a cinematic video hero and quiet product presentation. All copy is original. All imagery comes from the provided local assets.
+A premium, editorial fashion e-commerce site for the (fictional) house **KAIRO** — womenswear, menswear and accessories — that reproduces the *experience* of the reference site as closely as possible: its layout, rhythm, typography, stacked/sticky scrolling, split edit panels, a cinematic video hero and quiet product presentation. All copy is original. All imagery comes from the provided local assets.
 
 ## 2. Reference website
 
@@ -49,7 +49,7 @@ Header throughout: logo left (bold sans caps), MEN / WOMEN / ACCESSORIES next to
 
 | Use | File |
 |---|---|
-| Hero video diptych | `videos/hero-left.mp4` (from `333.mp4`: men skating through a colonnade, trimmed to 11 s) + `hero-left-poster.jpg`; `videos/hero-right.mp4` (from `444.mp4`: two women under arched windows, 16 s) + `hero-right-poster.jpg` |
+| Hero video diptych | `videos/hero-left.mp4` (from `10139117-hd_2048_1080_25fps.mp4`: men in long coats on a seaside rock, 14 s, 1600 px) + `hero-left-poster.jpg`; `videos/hero-right.mp4` (from `hero1.mp4`: two women before stacked logs, portrait, 14 s, 960 px) + `hero-right-poster.jpg` |
 | Ethos | `images/editorial/rack.jpg` |
 | Women’s Edit / Women hero | `videos/women-edit.mp4` + `women-edit-poster.jpg` |
 | Men’s Edit | `videos/men-edit.mp4` + poster |
@@ -69,7 +69,7 @@ Header throughout: logo left (bold sans caps), MEN / WOMEN / ACCESSORIES next to
 
 ### Hero decision
 
-The reference hero carries product hotspots over a still. Our hero is a two-video diptych (`333.mp4` + `444.mp4`, per the client). The garments in those films are not in the catalogue, so hotspots were removed rather than pointing at the wrong pieces. Re-add them only over footage whose garments exist as products.
+The reference hero carries product hotspots over a still. Our hero is a two-video diptych (`10139117-hd_2048_1080_25fps.mp4` + `hero1.mp4`, per the client). The garments in those films are not in the catalogue, so hotspots were removed rather than pointing at the wrong pieces. Re-add them only over footage whose garments exist as products.
 
 ## 5. Design direction
 
@@ -120,7 +120,7 @@ Breakpoints tested: 1440, 1280, 1024, 768, 430, 390, 375.
 - `lg` (≥1024) is the full desktop layout (split panels, centred nav, 4-col grid).
 - `<1024`: header collapses to logo + search + bag + menu; split panels stack (video panel becomes a 70svh block above the product list, which becomes a 2-col grid); horizontal scroll becomes native swipe (`overflow-x: auto`, scroll-snap) instead of pinned.
 - Listing grid: 4 cols ≥1024 (first card 2×2), 3 cols ≥768 (first card 2×2), 2 cols mobile (first card spans 2 cols).
-- Hero diptych shows only the right video on mobile; `object-position` keeps the models inside each portrait half (left 62%, right 76% mobile / 82% desktop).
+- Hero diptych shows only the right video on mobile; `object-position` keeps the models inside each portrait half (left 44% 50%; right 50% 50%).
 - `svh` units for viewport heights (mobile toolbars). No horizontal overflow at any width (`overflow-x: clip` on body as a guard, never as a fix).
 
 ## 10. Animation rules

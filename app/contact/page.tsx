@@ -6,7 +6,7 @@ import { Reveal, RevealLines } from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Questions about sizing, an order in flight or a repair — write to the Orelle studio.",
+  description: "Questions about sizing, an order in flight or a repair — write to the Kairo studio.",
 };
 
 const details = [

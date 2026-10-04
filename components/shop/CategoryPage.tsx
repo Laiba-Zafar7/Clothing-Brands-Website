@@ -5,7 +5,7 @@ import { CategoryHero, type Media } from "@/components/sections/CategoryHero";
 import { Listing } from "./Listing";
 
 const media: Record<Category, Media> = {
-  women: { kind: "video", src: "/videos/women-edit.mp4", poster: "/images/editorial/women-edit-poster.jpg", className: "object-[40%_50%]" },
+  women: { kind: "video", src: "/videos/women-edit.mp4", poster: "/images/editorial/women-edit-poster.jpg", className: "object-[50%_50%]" },
   men: { kind: "video", src: "/videos/men-hero.mp4", poster: "/images/editorial/men-hero-poster.jpg", className: "object-[45%_50%]" },
   accessories: {
     kind: "images",

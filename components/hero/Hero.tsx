@@ -15,13 +15,13 @@ const panels: Panel[] = [
   {
     src: "/videos/hero-left.mp4",
     poster: "/images/editorial/hero-left-poster.jpg",
-    focus: "object-[62%_50%]",
+    focus: "object-[44%_50%]",
     className: "hidden lg:block",
   },
   {
     src: "/videos/hero-right.mp4",
     poster: "/images/editorial/hero-right-poster.jpg",
-    focus: "object-[76%_50%] lg:object-[82%_50%]",
+    focus: "object-[50%_50%]",
   },
 ];
 

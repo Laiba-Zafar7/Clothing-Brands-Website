@@ -45,7 +45,7 @@ export default function AboutPage() {
             <RevealLines lines={["Small runs,", "finished by", "hand."]} delay={150} />
           </h1>
           <Reveal as="p" className="copy max-w-[60ch]" delay={500}>
-            Orelle is a London studio for cold-weather tailoring, knitwear and quiet accessories. We cut outerwear and
+            Kairo is a London studio for cold-weather tailoring, knitwear and quiet accessories. We cut outerwear and
             knitwear from mill-finished cloth in runs small enough that every piece passes through the same few pairs of
             hands.
           </Reveal>
@@ -80,7 +80,7 @@ export default function AboutPage() {
         <div className="grid gap-16 lg:grid-cols-12">
           <div className="lg:col-span-5 lg:col-start-2">
             <Reveal className="relative aspect-[3/4] overflow-hidden">
-              <Image src="/images/editorial/studio.jpg" alt="The Orelle studio with rails, a low table and a paper lantern" fill sizes="(min-width: 1024px) 36vw, 100vw" className="object-cover" />
+              <Image src="/images/editorial/studio.jpg" alt="The Kairo studio with rails, a low table and a paper lantern" fill sizes="(min-width: 1024px) 36vw, 100vw" className="object-cover" />
             </Reveal>
             <Reveal className="relative mt-2 aspect-[16/10] overflow-hidden lg:ml-[20%]" delay={120}>
               <Image src="/images/editorial/rack.jpg" alt="Jackets waiting on wooden hangers" fill sizes="(min-width: 1024px) 30vw, 100vw" className="object-cover" />

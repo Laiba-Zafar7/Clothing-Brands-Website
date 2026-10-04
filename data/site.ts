@@ -1,10 +1,10 @@
 import type { Category } from "./products";
 
 export const site = {
-  name: "Orelle",
-  wordmark: "ORELLE",
+  name: "Kairo",
+  wordmark: "KAIRO",
   tagline: "Quiet form, lasting presence. Cut in small runs and finished by hand.",
-  email: "hello@orelle.studio",
+  email: "hello@kairo.studio",
   phone: "+44 20 7946 0321",
   cities: "London · Milan · Seoul",
   instagram: "https://www.instagram.com/",

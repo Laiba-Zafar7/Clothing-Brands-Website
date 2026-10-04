@@ -48,7 +48,7 @@ export default function HomePage() {
         caption="Tailoring, knitwear and dresses cut for long days and longer evenings."
         eyebrow="Just Landed"
         season={`Women’s ${site.season}`}
-        video={{ src: "/videos/women-edit.mp4", poster: "/images/editorial/women-edit-poster.jpg", className: "object-[40%_50%]" }}
+        video={{ src: "/videos/women-edit.mp4", poster: "/images/editorial/women-edit-poster.jpg", className: "object-[50%_50%]" }}
         products={womensEdit}
         href="/women"
       />

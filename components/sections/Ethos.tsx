@@ -20,7 +20,7 @@ export function Ethos() {
           <WordReveal
             as="p"
             className="display-md mt-8 lg:mt-10"
-            text="At Orelle we don’t follow the season; we make pieces that quietly outlast it."
+            text="At Kairo we don’t follow the season; we make pieces that quietly outlast it."
           />
           <Reveal className="mt-10 border-t border-border pt-6" delay={150}>
             <p className="copy max-w-[52ch] text-foreground/75">

@@ -70,7 +70,7 @@ export function Footer() {
 
         <p
           aria-hidden="true"
-          className="mt-16 select-none whitespace-nowrap text-center text-[23.5vw] font-semibold leading-[0.8] tracking-[-0.045em] lg:mt-20 lg:text-[21.5vw]"
+          className="mt-16 select-none whitespace-nowrap text-center text-[22vw] font-semibold leading-[0.8] tracking-[-0.045em] lg:mt-20 lg:text-[20vw]"
         >
           {site.wordmark}
         </p>

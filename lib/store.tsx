@@ -28,8 +28,8 @@ interface StoreValue {
 
 const StoreContext = createContext<StoreValue | null>(null);
 
-const CART_KEY = "orelle:cart";
-const WISH_KEY = "orelle:wishlist";
+const CART_KEY = "kairo:cart";
+const WISH_KEY = "kairo:wishlist";
 
 function readJSON<T>(key: string, fallback: T): T {
   try {
